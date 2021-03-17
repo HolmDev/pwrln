@@ -1,3 +1,4 @@
-        @echo off
-        cd %*
-        %POWERLINE_DIR%\_set.bat
+@echo off
+::Passes along the cd command and refreshes the prompt
+cd %*
+%pwrln_dir%_set.bat
