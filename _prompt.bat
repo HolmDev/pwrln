@@ -3,12 +3,12 @@
 set cfg=$e[38;5;
 set cbg=$e[48;5;
 if "%1" == "normal" (
-	set addon=^
+	set suffix=^
 $e[49m^
 
 )
 if "%1" == "git" (
-	set addon=^
+	set suffix=^
 %cbg%%bg3%m^
 ^
 %cfg%%fg3%m^
@@ -33,6 +33,6 @@ $s%username%@^
 %cfg%%fg2%m^
 $s$p^
 %cfg%%bg2%m^
-%addon%^
+%suffix%^
 $e[m$s
 @echo on
