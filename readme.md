@@ -1,6 +1,6 @@
 # Intro
 
-This is a fork of [hazardland/powerline.bat](https://github.com/hazardland/powerline.bat). This is basically a cmd.exe application that show the current user and the userdomain, where you are in the directory structure and display the current git branch if there is one.
+This is a fork of [hazardland/powerline.bat](https://github.com/hazardland/powerline.bat). This is basically a cmd.exe batch script that show the current user and the userdomain, where you are in the directory structure and display the current git branch if there is one.
 
 ![pwrln](./images/pwrln.png)
 
