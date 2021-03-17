@@ -1,6 +1,6 @@
 # Intro
 
-This is a fork of [hazardland/powerline.bat](https://github.com/hazardland/powerline.bat). This is basically a cmd.exe application that show user
+This is a fork of [hazardland/powerline.bat](https://github.com/hazardland/powerline.bat). This is basically a cmd.exe application that show the current user and the userdomain, where you are in the directory structure and display the current git branch if there is one.
 
 ![pwrln](./images/pwrln.png)
 
@@ -13,6 +13,7 @@ To have it you will need:
 
 1. A terminal that supports nerdfonts and cmd.exe (probably some configuration options as well). I used Windows Terminal. Get it from [Microsoft Store](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701) or [their github](https://github.com/microsoft/terminal).
 2. A Nerd Font. Get them on [their site](https://www.nerdfonts.com/) or [their github](https://github.com/ryanoasis/nerd-fonts). Get prepatched font or patch your own. I used [CaskaydiaCove NF](https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.otf).
+3. git.exe. Get it from [their website](https://git-scm.com/downloads).
 
 # Setup
 
@@ -46,3 +47,14 @@ This problem is caused by certain terminals not being able to invert colors corr
 $e[7m^
 $e[m^
 ```
+
+# Ideas for further development
+
+- Add special icons to certain folders.
+- Fix drive swapping issue
+- Integrate other suffixes
+
+# Credits
+
+- [hazardland](https://github.com/hazardland) for the base
+- [HolmDev (me)](https://github.com/LokeSkogsalv) for implementing color configuration and a more complex prompt.
