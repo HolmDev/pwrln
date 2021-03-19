@@ -7,4 +7,4 @@ set bg1=236
 set bg2=237
 set bg3=238
 
-%pwrln_dir%_set.bat
+%pwrln_dir%_folder.bat

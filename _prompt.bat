@@ -31,7 +31,7 @@ $s%username%@^
 %cbg%%bg2%m^
 ^
 %cfg%%fg2%m^
-$s$p^
+$s%folder_icon%$s$p^
 %cfg%%bg2%m^
 %suffix%^
 $e[m$s

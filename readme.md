@@ -50,7 +50,7 @@ $e[m^
 
 # Ideas for further development
 
-- Add special icons to certain folders.
+- Add special icons to certain folders. (Done just need to update images)
 - Fix drive swapping issue
 - Integrate other suffixes
 

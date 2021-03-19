@@ -1,0 +1,1 @@
+%pwrln_dir%_color.bat
